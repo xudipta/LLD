@@ -4,10 +4,8 @@ import observer_design_pattern.observers.EmailNotificationObserverImpl;
 import observer_design_pattern.observers.MobileNotificationObserverImpl;
 import observer_design_pattern.observers.NotificationObserver;
 
-import java.util.concurrent.TimeUnit;
-
 public class Entrypoint {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
         PhoneObservableImpl phoneObservable = new PhoneObservableImpl();
 
         NotificationObserver ob1 = new EmailNotificationObserverImpl("abc@test.com", phoneObservable);
@@ -18,9 +16,14 @@ public class Entrypoint {
         phoneObservable.add(ob2);
         phoneObservable.add(ob3);
 
-        Thread.sleep(2000);
+        try {
+            Thread.sleep(2000);
+            phoneObservable.setData(10);
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+        }
 
-        phoneObservable.setData(10);
+
 
     }
 }
