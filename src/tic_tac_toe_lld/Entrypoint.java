@@ -1,4 +1,4 @@
-package TicTacToeLLD;
+package tic_tac_toe_lld;
 
 public class Entrypoint {
     public static void main(String[] args) {

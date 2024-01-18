@@ -1,4 +1,4 @@
-package TicTacToeLLD.models;
+package tic_tac_toe_lld.models;
 
 public class PlayingPiece {
     PlayingType type;

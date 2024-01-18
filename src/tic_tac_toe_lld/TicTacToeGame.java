@@ -1,9 +1,9 @@
-package TicTacToeLLD;
+package tic_tac_toe_lld;
 
-import TicTacToeLLD.models.Board;
-import TicTacToeLLD.models.PieceO;
-import TicTacToeLLD.models.PieceX;
-import TicTacToeLLD.models.Player;
+import tic_tac_toe_lld.models.Board;
+import tic_tac_toe_lld.models.PieceO;
+import tic_tac_toe_lld.models.PieceX;
+import tic_tac_toe_lld.models.Player;
 
 import java.awt.*;
 import java.util.*;
