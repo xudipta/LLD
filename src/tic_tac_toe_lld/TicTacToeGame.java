@@ -23,7 +23,6 @@ public class TicTacToeGame {
         board=new Board(3);
         board.printBoard();
     }
-
     public String startGame(){
         boolean noWinner=true;
         while (noWinner){
@@ -36,6 +35,12 @@ public class TicTacToeGame {
             System.out.println(p.getName()+" ,Enter row , column: ");
             Scanner sc = new Scanner(System.in);
             String input = sc.nextLine();
+            if(input == null || input.isEmpty()) {
+                System.out.println("Illegal move, please try again ");
+                players.addFirst(p);
+                continue;
+            }
+            input = input.replace(',',' ');
             String[] rc=input.split("\\s+");
             int r = Integer.parseInt(rc[0]);
             int c = Integer.parseInt(rc[1]);

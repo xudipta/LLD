@@ -6,7 +6,6 @@ import abstract_factory_design_pattern.product.Application;
 
 public class Entrypoint {
     public static void main(String[] args) {
-
         String os= "win";
         GUIFactory factory = switch (os.toLowerCase()) {
             case "mac" -> new MacFactory();
