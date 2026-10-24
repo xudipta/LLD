@@ -37,6 +37,9 @@ is used rather than only what it looks like.
 | Tic-Tac-Toe | Composition, queue-based turns | [problems/tictactoe](src/main/java/problems/tictactoe/README.md) |
 | Logger | Chain of Responsibility | [problems/logger](src/main/java/problems/logger/README.md) |
 
+### Guides
+- [Pattern selection guide](docs/pattern-guide.md): which pattern for which problem, easily confused pairs, common misuse
+
 ## Suggested learning path
 1. Start with [Strategy](src/main/java/patterns/strategy/README.md) and [Factory](src/main/java/patterns/factory/README.md).
 2. Then [Observer](src/main/java/patterns/observer/README.md), [Decorator](src/main/java/patterns/decorator/README.md) and [Adapter](src/main/java/patterns/adapter/README.md).
