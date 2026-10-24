@@ -19,6 +19,17 @@ is used rather than only what it looks like.
 | Factory | Shapes | [patterns/factory](src/main/java/patterns/factory/README.md) |
 | Abstract Factory | Cross-platform GUI | [patterns/abstractfactory](src/main/java/patterns/abstractfactory/README.md) |
 | Adapter | Pounds to kilograms | [patterns/adapter](src/main/java/patterns/adapter/README.md) |
+| Singleton | Application config | [patterns/singleton](src/main/java/patterns/singleton/README.md) |
+| Builder | HTTP request | [patterns/builder](src/main/java/patterns/builder/README.md) |
+| Prototype | Document templates | [patterns/prototype](src/main/java/patterns/prototype/README.md) |
+| Command | Text editor undo | [patterns/command](src/main/java/patterns/command/README.md) |
+| State | Order lifecycle | [patterns/state](src/main/java/patterns/state/README.md) |
+| Template Method | CSV / JSON export | [patterns/templatemethod](src/main/java/patterns/templatemethod/README.md) |
+| Chain of Responsibility | Logger (see below) | [patterns/chainofresponsibility](src/main/java/patterns/chainofresponsibility/README.md) |
+| Proxy | Caching image loader | [patterns/proxy](src/main/java/patterns/proxy/README.md) |
+| Facade | Home theater | [patterns/facade](src/main/java/patterns/facade/README.md) |
+| Composite | File system sizes | [patterns/composite](src/main/java/patterns/composite/README.md) |
+| Iterator | Playlist traversal | [patterns/iterator](src/main/java/patterns/iterator/README.md) |
 
 ### Design problems
 | Problem | Patterns used | Docs |
@@ -29,8 +40,10 @@ is used rather than only what it looks like.
 ## Suggested learning path
 1. Start with [Strategy](src/main/java/patterns/strategy/README.md) and [Factory](src/main/java/patterns/factory/README.md).
 2. Then [Observer](src/main/java/patterns/observer/README.md), [Decorator](src/main/java/patterns/decorator/README.md) and [Adapter](src/main/java/patterns/adapter/README.md).
-3. Finish with [Abstract Factory](src/main/java/patterns/abstractfactory/README.md).
-4. Apply them in [Tic-Tac-Toe](src/main/java/problems/tictactoe/README.md), then the [Logger](src/main/java/problems/logger/README.md).
+3. Continue with [Abstract Factory](src/main/java/patterns/abstractfactory/README.md), [Builder](src/main/java/patterns/builder/README.md), [Singleton](src/main/java/patterns/singleton/README.md) and [Prototype](src/main/java/patterns/prototype/README.md).
+4. Then the behavioural ones: [Command](src/main/java/patterns/command/README.md), [State](src/main/java/patterns/state/README.md), [Template Method](src/main/java/patterns/templatemethod/README.md), [Iterator](src/main/java/patterns/iterator/README.md).
+5. And the structural ones: [Proxy](src/main/java/patterns/proxy/README.md), [Facade](src/main/java/patterns/facade/README.md), [Composite](src/main/java/patterns/composite/README.md).
+6. Apply them in [Tic-Tac-Toe](src/main/java/problems/tictactoe/README.md), then the [Logger](src/main/java/problems/logger/README.md).
 
 ## Build, run and test
 Requires JDK 21 and Maven.
