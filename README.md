@@ -39,6 +39,9 @@ is used rather than only what it looks like.
 | Parking lot | Strategy (allocation and pricing), thread-safe | [problems/parkinglot](src/main/java/problems/parkinglot/README.md) |
 | LRU cache | HashMap + linked list, thread-safe | [problems/lrucache](src/main/java/problems/lrucache/README.md) |
 | Rate limiter | Token bucket, thread-safe | [problems/ratelimiter](src/main/java/problems/ratelimiter/README.md) |
+| Vending machine | State | [problems/vendingmachine](src/main/java/problems/vendingmachine/README.md) |
+| Elevator system | LOOK scheduling, Strategy (dispatch) | [problems/elevator](src/main/java/problems/elevator/README.md) |
+| Snake and Ladder | Injected dice | [problems/snakeandladder](src/main/java/problems/snakeandladder/README.md) |
 
 ### Guides
 - [Concurrency notes](docs/concurrency.md): the unsafe-vs-safe versions, locking tools and how the race tests work
