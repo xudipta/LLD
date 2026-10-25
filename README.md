@@ -42,6 +42,10 @@ is used rather than only what it looks like.
 | Vending machine | State | [problems/vendingmachine](src/main/java/problems/vendingmachine/README.md) |
 | Elevator system | LOOK scheduling, Strategy (dispatch) | [problems/elevator](src/main/java/problems/elevator/README.md) |
 | Snake and Ladder | Injected dice | [problems/snakeandladder](src/main/java/problems/snakeandladder/README.md) |
+| Splitwise | Strategy (split types) | [problems/splitwise](src/main/java/problems/splitwise/README.md) |
+| BookMyShow | Per-show locking, hold-then-confirm | [problems/bookmyshow](src/main/java/problems/bookmyshow/README.md) |
+| Chess | Stateless rules engine, board copy | [problems/chess](src/main/java/problems/chess/README.md) |
+| Notification service | Strategy (channels), retries | [problems/notificationservice](src/main/java/problems/notificationservice/README.md) |
 
 ### Guides
 - [Concurrency notes](docs/concurrency.md): the unsafe-vs-safe versions, locking tools and how the race tests work
