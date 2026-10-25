@@ -57,6 +57,9 @@ links to a worked example in this repo.
 |---|---|---|
 | [Tic-Tac-Toe](../src/main/java/problems/tictactoe/README.md) | Composition; queue-based turn rotation; a small class hierarchy for pieces | `Deque<Player>`, `Board`, `PlayingPiece` |
 | [Logger](../src/main/java/problems/logger/README.md) | Chain of Responsibility | `LogProcessor` handlers |
+| [Parking lot](../src/main/java/problems/parkinglot/README.md) | Strategy (twice) | `SpotAllocationStrategy`, `PricingStrategy` |
+| [LRU cache](../src/main/java/problems/lrucache/README.md) | Decorator-style wrapping for thread safety | `ConcurrentLruCache` around `LruCore` |
+| [Rate limiter](../src/main/java/problems/ratelimiter/README.md) | Strategy-style interface | `RateLimiter` with swappable algorithms |
 
 Each new problem added to the repo should add a row here, and its README should link back
 to the pattern pages it uses.

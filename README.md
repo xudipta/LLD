@@ -36,8 +36,12 @@ is used rather than only what it looks like.
 |---|---|---|
 | Tic-Tac-Toe | Composition, queue-based turns | [problems/tictactoe](src/main/java/problems/tictactoe/README.md) |
 | Logger | Chain of Responsibility | [problems/logger](src/main/java/problems/logger/README.md) |
+| Parking lot | Strategy (allocation and pricing), thread-safe | [problems/parkinglot](src/main/java/problems/parkinglot/README.md) |
+| LRU cache | HashMap + linked list, thread-safe | [problems/lrucache](src/main/java/problems/lrucache/README.md) |
+| Rate limiter | Token bucket, thread-safe | [problems/ratelimiter](src/main/java/problems/ratelimiter/README.md) |
 
 ### Guides
+- [Concurrency notes](docs/concurrency.md): the unsafe-vs-safe versions, locking tools and how the race tests work
 - [Pattern selection guide](docs/pattern-guide.md): which pattern for which problem, easily confused pairs, common misuse
 
 ## Suggested learning path
