@@ -60,6 +60,9 @@ links to a worked example in this repo.
 | [Parking lot](../src/main/java/problems/parkinglot/README.md) | Strategy (twice) | `SpotAllocationStrategy`, `PricingStrategy` |
 | [LRU cache](../src/main/java/problems/lrucache/README.md) | Decorator-style wrapping for thread safety | `ConcurrentLruCache` around `LruCore` |
 | [Rate limiter](../src/main/java/problems/ratelimiter/README.md) | Strategy-style interface | `RateLimiter` with swappable algorithms |
+| [Vending machine](../src/main/java/problems/vendingmachine/README.md) | State | `IdleState`, `HasMoneyState` |
+| [Elevator system](../src/main/java/problems/elevator/README.md) | Strategy | `DispatchStrategy` picks the car |
+| [Snake and Ladder](../src/main/java/problems/snakeandladder/README.md) | Dependency injection of a collaborator | `Dice` interface, scripted in tests |
 
 Each new problem added to the repo should add a row here, and its README should link back
 to the pattern pages it uses.
