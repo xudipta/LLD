@@ -48,6 +48,8 @@ is used rather than only what it looks like.
 5. And the structural ones: [Proxy](src/main/java/patterns/proxy/README.md), [Facade](src/main/java/patterns/facade/README.md), [Composite](src/main/java/patterns/composite/README.md).
 6. Apply them in [Tic-Tac-Toe](src/main/java/problems/tictactoe/README.md), then the [Logger](src/main/java/problems/logger/README.md).
 
+New to LLD interviews? Read the [45-minute interview framework](docs/interview-framework.md) first.
+
 ## Build, run and test
 Requires JDK 21 and Maven.
 
