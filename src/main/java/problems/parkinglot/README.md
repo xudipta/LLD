@@ -72,6 +72,7 @@ classDiagram
 - Entry and exit gates as separate machines? The lot becomes a service with a shared store.
 
 ## 9. Related topics
+- **Walkthrough:** [from counters to strategies to a thread-safe lot](../../../../../docs/walkthroughs/parkinglot.md)
 [Strategy](../../patterns/strategy/README.md), [Concurrency notes](../../../../../docs/concurrency.md)
 
 ## Run it

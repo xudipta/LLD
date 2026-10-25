@@ -58,6 +58,7 @@ the next handler. The last handler has `null` as its next, so an unknown level i
 - **Runtime reconfiguration?** Make `nextLogProcessor` swappable and guard it.
 
 ## 9. Related topics
+- **Walkthrough:** [from if/else to a chain of handlers, in three tested steps](../../../../../docs/walkthroughs/logger.md)
 - [Strategy](../../patterns/strategy/README.md) for choosing an output format
 - [Observer](../../patterns/observer/README.md) for fan-out to several sinks
 

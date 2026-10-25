@@ -48,6 +48,7 @@ is used rather than only what it looks like.
 | Notification service | Strategy (channels), retries | [problems/notificationservice](src/main/java/problems/notificationservice/README.md) |
 
 ### Guides
+- [Naive-to-refactored walkthroughs](docs/walkthroughs/README.md): Tic-Tac-Toe, Logger and Parking lot, built step by step with one behaviour test run against every step
 - [Concurrency notes](docs/concurrency.md): the unsafe-vs-safe versions, locking tools and how the race tests work
 - [Pattern selection guide](docs/pattern-guide.md): which pattern for which problem, easily confused pairs, common misuse
 
