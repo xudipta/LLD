@@ -88,6 +88,7 @@ player to the back of the queue; an illegal one puts them back at the front.
 - **Make the win check O(1)?** Maintain row, column and diagonal counters.
 
 ## 9. Related topics
+- **Walkthrough:** [from one method to this design, in four tested steps](../../../../../docs/walkthroughs/tictactoe.md)
 - [Strategy](../../patterns/strategy/README.md) for pluggable move sources
 - [Logger](../logger/README.md)
 
