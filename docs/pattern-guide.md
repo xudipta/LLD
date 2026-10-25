@@ -63,6 +63,10 @@ links to a worked example in this repo.
 | [Vending machine](../src/main/java/problems/vendingmachine/README.md) | State | `IdleState`, `HasMoneyState` |
 | [Elevator system](../src/main/java/problems/elevator/README.md) | Strategy | `DispatchStrategy` picks the car |
 | [Snake and Ladder](../src/main/java/problems/snakeandladder/README.md) | Dependency injection of a collaborator | `Dice` interface, scripted in tests |
+| [Splitwise](../src/main/java/problems/splitwise/README.md) | Strategy | `SplitStrategy`: equal, exact, percent |
+| [BookMyShow](../src/main/java/problems/bookmyshow/README.md) | State (booking lifecycle) | `BookingState` held, confirmed, cancelled, expired |
+| [Chess](../src/main/java/problems/chess/README.md) | Separation of rules from state | stateless `MoveRules` |
+| [Notification service](../src/main/java/problems/notificationservice/README.md) | Strategy | `NotificationChannel` per delivery method |
 
 Each new problem added to the repo should add a row here, and its README should link back
 to the pattern pages it uses.
